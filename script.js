@@ -15,7 +15,7 @@ fetch('data.json')
   })
   .catch(err => {
     resultDiv.textContent = 'Error loading data.';
-    console.error(err);]
+    console.error(err);
   });
 
 // Fill dropdown with unique country names
