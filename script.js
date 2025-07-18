@@ -48,8 +48,8 @@ lookupBtn.addEventListener('click', () => {
 
   if (entry) {
     resultDiv.textContent = 
-      `Energy consumption for ${entry.country} at ${entry.share}% worst-performing buildings: ` +
-      `${entry.energy} units.`;
+      `Worst-performing residential buildings in ${entry.country} are buildings using more than ` +
+      `${entry.energy} kWh/m2/year.`;
   } else {
     resultDiv.textContent = 
       `No data found for ${country} at ${share}%.`;
