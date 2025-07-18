@@ -1,5 +1,5 @@
 [
-  { "country": "France",   "share": 10, "energy": 1250 },
-  { "country": "Germany",  "share": 25, "energy": 1780 },
-  { "country": "Spain",    "share": 50, "energy": 930 }
+  { "country": "France",   "share": 43, "energy": 1250 },
+  { "country": "Germany",  "share": 43, "energy": 1780 },
+  { "country": "Spain",    "share": 43, "energy": 930 }
 ]
