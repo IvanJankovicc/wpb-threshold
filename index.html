@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Energy Lookup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Energy Consumption Lookup</h1>
+
+    <label for="countrySelect">Country:</label>
+    <select id="countrySelect">
+      <option value="">--choose one--</option>
+      <!-- options added by script -->
+    </select>
+
+    <label for="shareInput">Share of Worst Performing Buildings (%):</label>
+    <input type="number" id="shareInput" min="0" max="100" step="1">
+
+    <button id="lookupBtn">Lookup</button>
+
+    <section id="result">
+      <!-- result injected here -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
